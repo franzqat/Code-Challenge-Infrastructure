@@ -1,0 +1,6 @@
+[local]
+machine2 ansible_host=192.168.77.22
+[local:vars]
+ansible_user=root
+ansible_port = 2222
+ansible_python_interpreter=/usr/bin/python3
