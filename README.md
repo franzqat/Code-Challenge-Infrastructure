@@ -8,14 +8,22 @@
  The script for the disk resize is contained in disk-extend.sh
  It is run automatically by vagrant during provisioning
 
- ## **Quickstart: how to run**
+ ## **Quickstart**
  ---
- Browse to the repo folder and exec 
- 
+ Browse to the repo folder and exec the command below. The provisioning will provide to install Docker and Docker-Compose using a task with Ansible.
+
+ **To run**
+
 ` $ vagrant up`
 
-The provisioning will provide to install Docker and Docker-Compose using a task with Ansible.
 
+**To stop**
+
+` $ vagrant halt`
+
+**To delete the VMs**
+
+` $ vagrant destroy -f`
 
 ### **Software list**
 ---
