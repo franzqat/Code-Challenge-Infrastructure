@@ -35,6 +35,7 @@ The provisioning will provide to install Docker and Docker-Compose using a task 
 
 #### **Notes**
 Vagrant file is not optimized but this is the only way I was able to run everything on Windows environment.
+
 There are two inventory file: **hosts** and **inventory**. This was the solution I've found to allow ansible to run fine and install Docker correctly.
 
 
